@@ -18,6 +18,8 @@ so that I have quick access to emails and GitHub profiles
 ![screenshot1](./Assests/Images/.png)
 ![screenshot2](./Assests/Images/.png)
 
+## Tests
+
 ## Built With
 * Node
 * Inquirer
