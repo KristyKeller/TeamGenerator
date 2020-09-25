@@ -1,5 +1,4 @@
 # 👥 Team Profile Generator
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## User Story
 ```
@@ -28,6 +27,7 @@ so that I have quick access to emails and GitHub profiles
 * Bootstrap
 
 ## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Copyright 2020 ©Kristy Keller
 
