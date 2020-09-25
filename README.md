@@ -28,7 +28,6 @@ so that I have quick access to emails and GitHub profiles
 * Bootstrap
 
 ## License
-This project license is under MIT.
 
 Copyright 2020 ©Kristy Keller
 
