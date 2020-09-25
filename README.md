@@ -11,14 +11,14 @@ so that I have quick access to emails and GitHub profiles
 ## Application Description
  A software engineering team generator command line application. Prompts the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns. When the user has completed building the team, the application creates an HTML file that displays a formatted team roster based on the information provided by the user.
  
+## Tests
+ 
 ## Demo
 ![gif](.gif)
 
 ## Screenshots
 ![screenshot1](./Assests/Images/.png)
 ![screenshot2](./Assests/Images/.png)
-
-## Tests
 
 ## Built With
 * Node
