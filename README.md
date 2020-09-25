@@ -24,7 +24,6 @@ so that I have quick access to emails and GitHub profiles
 * JSON
 * JavaScript
 * HTML
-* CSS
 * Bootstrap
 
 ## License
