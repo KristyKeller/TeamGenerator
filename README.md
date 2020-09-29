@@ -24,6 +24,7 @@ so that I have quick access to emails and GitHub profiles
 * Node
 * Inquirer
 * JSON
+* Jest
 * JavaScript
 * HTML
 * Bootstrap
