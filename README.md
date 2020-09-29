@@ -6,19 +6,21 @@
 As a manager
 I want to generate a webpage that displays my team's basic info
 so that I have quick access to emails and GitHub profiles
-
 ```
 ## Application Description
  A software engineering team generator command line application. Prompts the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns. When the user has completed building the team, the application creates an HTML file that displays a formatted team roster based on the information provided by the user.
  
 ## Tests
- 
+ ```
+ npm test
+ ```
+ ![screenshot1](./Assests/Images/passed-tests.PNG) 
 ## Demo
 ![gif](.gif)
 
 ## Screenshots
-![screenshot1](./Assests/Images/.png)
-![screenshot2](./Assests/Images/.png)
+![screenshot2](./Assests/Images/.PNG)
+![screenshot3](./Assests/Images/.PNG)
 
 ## Built With
 * Node
