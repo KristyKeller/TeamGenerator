@@ -1,5 +1,34 @@
 # 👥 Team Profile Generator
-### [CLICK HERE FOR APPLICATION WALK THROUGH]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+### [CLICK HERE TO VIEW THE GENERATOR]()
+
+## Table of Contents
+
+* [Screenshots](#screenshots)
+
+* [User Story](#userStroy)
+
+* [Application Description](#applicationDescription)
+
+* [Demo](#demo)
+
+* [Installation](#installation)
+
+* [Tests](#tests)
+
+* [Built With](#builtWith)
+
+* [License](#license)
+
+* [Questions](#questions)
+ 
+## Screenshots
+
+![screenshot2](./Assets/Images/app-screenshot.png)
+
+![screenshot3](./Assets/Images/command-line-2.PNG)
+
+![screenshot4](./Assets/Images/command-line-1.PNG)
 
 ## User Story
 ```
@@ -8,21 +37,28 @@ I want to generate a webpage that displays my team's basic info
 so that I have quick access to emails and GitHub profiles
 ```
 ## Application Description
+
  A software engineering team generator command line application. Prompts the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns. When the user has completed building the team, the application creates an HTML file that displays a formatted team roster based on the information provided by the user.
- 
-## Tests
+
+## Demo
+### [CLICK HERE FOR FULL DEMO](https://drive.google.com/file/d/1CUK7XRIwROG4-ROSY3tNd4v2Cqcqt2bN/view?usp=sharing)
+![gif](https://media.giphy.com/media/u6Q8NXDwsKfRjwayo3/giphy.gif)
+
+ ## Installation
+
+ ```
+ npm i
+ ```
+
+ ## Tests
+
  ```
  npm test
  ```
- ![screenshot1](./Assests/Images/passed-tests.PNG) 
-## Demo
-![gif](.gif)
-
-## Screenshots
-![screenshot2](./Assests/Images/.PNG)
-![screenshot3](./Assests/Images/.PNG)
+  ![screenshot1](./Assets/Images/passed-tests.PNG) 
 
 ## Built With
+
 * Node
 * Inquirer
 * JSON
@@ -32,7 +68,6 @@ so that I have quick access to emails and GitHub profiles
 * Bootstrap
 
 ## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Copyright 2020 ©Kristy Keller
 

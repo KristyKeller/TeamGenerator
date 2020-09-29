@@ -15,15 +15,15 @@ const render = require("./lib/htmlRenderer");
 
 const employees = [];
 
-managerPrompt()
-function managerPrompt() {
+createTeam();
+
+function createTeam() {
 
     // Inquirer Prompt #1
     console.log("Please build your team")
+
     inquirer.prompt([
-
         // Questions about the manager 
-
         {
             type: "input",
             message: " \n \n What is your manager's name? \n \n ",
@@ -55,8 +55,10 @@ function managerPrompt() {
             const manager = new Manager(managerAnswers.name, managerAnswers.id, managerAnswers.email, managerAnswers.officeNumber);
             employees.push(manager);
 
-            teamPrompt()
+            // Recursion 
             // Inquirer Prompt #2
+            teamPrompt()
+
             function teamPrompt() {
                 inquirer.prompt([
                     // Select your team member 
@@ -69,7 +71,8 @@ function managerPrompt() {
                             "Intern",
                             "No more team members"
                         ]
-                    }])
+                    }
+                ])
 
                     .then(function (typeAnswers) {
                         if (typeAnswers.employee === "Engineer") {
@@ -77,47 +80,48 @@ function managerPrompt() {
 
                             // Inquirer Prompt #3
                             engineerPrompt()
-                            // Questions about the engineer 
+
                             function engineerPrompt() {
-                                inquirer.prompt([
-                                    {
-                                        type: "input",
-                                        message: " \n \n What is your engineer's name? \n \n ",
-                                        name: "name",
-                                        default: "Engineer's Name"
-                                    },
-                                    {
-                                        type: "input",
-                                        message: " \n \n What is your engineer's id? \n \n ",
-                                        name: "id",
-                                        default: "Manager's ID Number"
-                                    },
-                                    {
-                                        type: "input",
-                                        message: " \n \n What is your engineer's email? \n \n ",
-                                        name: "email",
-                                        default: "engineer@email.com"
-                                    },
-                                    {
-                                        type: "input",
-                                        message: " \n \n What is your engineer's Github? \n \n ",
-                                        name: "github",
-                                        default: "Engineer's GitHub username"
-                                    }])
+                                inquirer.prompt([{
+                                    // Questions about the engineer 
+                                    type: "input",
+                                    message: " \n \n What is your engineer's name? \n \n ",
+                                    name: "name",
+                                    default: "Engineer's Name"
+                                },
+                                {
+                                    type: "input",
+                                    message: " \n \n What is your engineer's id? \n \n ",
+                                    name: "id",
+                                    default: "Engineer's ID Number"
+                                },
+                                {
+                                    type: "input",
+                                    message: " \n \n What is your engineer's email? \n \n ",
+                                    name: "email",
+                                    default: "engineer@email.com"
+                                },
+                                {
+                                    type: "input",
+                                    message: " \n \n What is your engineer's Github? \n \n ",
+                                    name: "github",
+                                    default: "Engineer's GitHub username"
+                                }
+                                ])
 
                                     .then(function (engineerAnswers) {
                                         const engineer = new Engineer(engineerAnswers.name, engineerAnswers.id, engineerAnswers.email, engineerAnswers.github);
                                         employees.push(engineer);
+                                        teamPrompt();
                                     })
                             }
                         } else if (typeAnswers.employee === "Intern") {
 
-                            internPrompt()
                             // Inquirer Prompt #4
+                            internPrompt()
+
                             function internPrompt() {
                                 inquirer.prompt([
-
-
                                     // Questions about the intern
                                     {
                                         type: "input",
@@ -139,19 +143,21 @@ function managerPrompt() {
                                     },
                                     {
                                         type: "input",
-                                        message: " \n \n What is your intern's Github? \n \n ",
+                                        message: " \n \n What is your intern's school? \n \n ",
                                         name: "school",
                                         default: "Intern's School"
-                                    }])
+                                    }
+                                ])
 
                                     .then(function (internAnswers) {
-                                        const intern = new Intern(internAnswers.name, internAnswers.id, internAnswers.email, internAnswers.officeSchool);
+                                        const intern = new Intern(internAnswers.name, internAnswers.id, internAnswers.email, internAnswers.school);
+                                        employees.push(intern);
+                                        teamPrompt();
                                     })
                             }
                         } else {
                             //Exit the inquirer
                             const html = render(employees);
-
                             fs.writeFile(outputPath, html, function (err) {
                                 if (err) {
                                     return console.log(err);
@@ -168,11 +174,4 @@ function managerPrompt() {
         })
 
 }
-
-
-// After you have your html, you're now ready to create an HTML file using the HTML
-// returned from the `render` function. Now write it to a file named `team.html` in the
-// `output` folder. You can use the variable `outputPath` above target this location.
-// Hint: you may need to check if the `output` folder exists and create it if it
-// does not.
 

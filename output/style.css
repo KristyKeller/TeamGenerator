@@ -1,0 +1,39 @@
+body {
+    background-image: url("./assets/Images/office-background.jpg");
+}
+
+.card {
+    outline-style: double;
+}
+
+.jumbotron {
+    background: rgba(43, 43, 43, 0.5)
+}
+h1 {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 350%;
+    font-family: 'Fjalla One';
+}
+
+h2 {
+    color: black;
+    font-size: 140%;
+    font-family: 'Abel';
+}
+
+.card {
+    margin: 10px;
+}
+.card-title {
+    text-align: center;
+}
+
+h3 {
+    color: rgb(74, 10, 0);
+
+}
+
+a {
+    color: rgb(179, 3, 3);
+}
