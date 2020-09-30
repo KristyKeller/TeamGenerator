@@ -1,14 +1,14 @@
 # 👥 Team Profile Generator
 
-### [CLICK HERE TO VIEW THE GENERATOR]()
+### [CLICK HERE FOR APPLICATION WALK THROUGH](https://drive.google.com/file/d/1CUK7XRIwROG4-ROSY3tNd4v2Cqcqt2bN/view?usp=sharing)
 
 ## Table of Contents
 
 * [Screenshots](#screenshots)
 
-* [User Story](#userStroy)
+* [User Story](#user-story)
 
-* [Application Description](#applicationDescription)
+* [Application Description](#application-description)
 
 * [Demo](#demo)
 
@@ -16,7 +16,7 @@
 
 * [Tests](#tests)
 
-* [Built With](#builtWith)
+* [Built With](#built-with)
 
 * [License](#license)
 
@@ -41,7 +41,7 @@ so that I have quick access to emails and GitHub profiles
  A software engineering team generator command line application. Prompts the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns. When the user has completed building the team, the application creates an HTML file that displays a formatted team roster based on the information provided by the user.
 
 ## Demo
-### [CLICK HERE FOR FULL DEMO](https://drive.google.com/file/d/1CUK7XRIwROG4-ROSY3tNd4v2Cqcqt2bN/view?usp=sharing)
+
 ![gif](https://media.giphy.com/media/u6Q8NXDwsKfRjwayo3/giphy.gif)
 
  ## Installation
