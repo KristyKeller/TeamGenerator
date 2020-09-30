@@ -24,7 +24,7 @@
  
 ## Screenshots
 
-![screenshot2](./Assets/Images/app-screenshot.png)
+![screenshot2](./Assets/Images/team-gen.png)
 
 ![screenshot3](./Assets/Images/command-line-2.PNG)
 
