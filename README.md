@@ -1,6 +1,6 @@
 # 👥 Team Profile Generator
 
-### [CLICK HERE FOR APPLICATION WALK THROUGH](https://drive.google.com/file/d/1CUK7XRIwROG4-ROSY3tNd4v2Cqcqt2bN/view?usp=sharing)
+ [CLICK HERE FOR APPLICATION WALK THROUGH](https://drive.google.com/file/d/1bhLu0rQtZ7xfDRMs5FQ1AdVNLG6L_58Y/view?usp=sharing)
 
 ## Table of Contents
 
