@@ -51,7 +51,7 @@ so that I have quick access to emails and GitHub profiles
  ## Usage
 
  ```
-Run "node index.js" to start the question prompts
+Run "node app.js" to start the question prompts
  ```
 
  ## Tests
