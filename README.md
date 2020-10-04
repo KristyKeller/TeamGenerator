@@ -64,6 +64,8 @@ Run "node app.js" to start the question prompts
 ## Demo
 
 ![gif](https://media.giphy.com/media/u6Q8NXDwsKfRjwayo3/giphy.gif)
+ [Click here for full-screen Demo](https://drive.google.com/file/d/1bhLu0rQtZ7xfDRMs5FQ1AdVNLG6L_58Y/view?usp=sharing)
+
 
 ## Built With
 
