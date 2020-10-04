@@ -10,11 +10,13 @@
 
 * [Application Description](#application-description)
 
-* [Demo](#demo)
-
 * [Installation](#installation)
 
+* [Usage](#usage)
+
 * [Tests](#tests)
+
+* [Demo](#demo)
 
 * [Built With](#built-with)
 
@@ -40,14 +42,16 @@ so that I have quick access to emails and GitHub profiles
 
  A software engineering team generator command line application. Prompts the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns. When the user has completed building the team, the application creates an HTML file that displays a formatted team roster based on the information provided by the user.
 
-## Demo
-
-![gif](https://media.giphy.com/media/u6Q8NXDwsKfRjwayo3/giphy.gif)
-
  ## Installation
 
  ```
  npm i
+ ```
+ 
+ ## Usage
+
+ ```
+Run "node index.js" to start the question prompts
  ```
 
  ## Tests
@@ -56,6 +60,10 @@ so that I have quick access to emails and GitHub profiles
  npm test
  ```
   ![screenshot1](./Assets/Images/passed-tests.PNG) 
+
+## Demo
+
+![gif](https://media.giphy.com/media/u6Q8NXDwsKfRjwayo3/giphy.gif)
 
 ## Built With
 
